@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[4]:
-
-
 def fibbonacci (number):
     '''Returns the fibonacci sequence of a given number'''
     output = [0,1]  # defines the first two terms
@@ -14,10 +8,3 @@ def fibbonacci (number):
         n3 = n1 + n2 
         output.append(n3)      
     return(output)
-
-
-# In[3]:
-
-
-fibbonacci(8)
-
